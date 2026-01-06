@@ -11,17 +11,24 @@ interface Project {
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "NeuraWeb – Futuristic AI Website Landing Design",
-    description: "A sleek, dark-themed AI-powered landing page concept built in Figma. Designed for modern startups and futuristic digital products, it features glowing neon visuals, immersive UI, and a dynamic tone. The design encapsulates the cutting-edge possibilities of AI and tech, offering a glimpse into the future of online experiences for tech-forward companies.",
-    link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
+    title: "Mini Search - Video Searching Platform",
+    description: "A backend service for managing and searching short videos, with keyword-based relevance scoring, caching for repeated searches, and async thumbnail processing. Provides REST APIs for video CRUD, filtering, and sorting, with Swagger documentation for easy integration.",
+    link: "https://minisearch-production.up.railway.app/swagger-ui/index.html",
     image: "/projects/project-1.png",
   },
   {
     id: 2,
-    title: "Apple Vision Pro – HR Software Design",
-    description: "A futuristic HR software concept designed for Apple Vision Pro, built in Figma to reimagine attendance, leave tracking, and employee experience - all in one immersive interface.",
-   link: "https://www.figma.com/community/file/1371824014208363481/apple-vision-pro-hr-software-design",
+    title: "Track Your Offer - Application Tracking Platform",
+    description: "A backend-focused job application tracker built with Node.js, Express, and MongoDB. Includes JWT auth, file uploads (Cloudinary), async email reminders (Bull + Redis), and full API documentation (Swagger). Designed to demonstrate real-world system design, background processing, and CI/CD deployment.",
+    link: "https://track-your-offer-iota.vercel.app/",
     image: "/projects/project-2.png",
+  },
+  {
+    id: 3,
+    title: "Peepal -  Toilet Finder Application",
+    description: "Peepal helps users locate nearby toilets with reviews and detailed info. Built with Hono (TypeScript) and PostgreSQL (PostGIS), it features JWT authentication and image uploads via MinIO. The Flutter frontend uses the BLoC pattern for a responsive, intuitive interface with maps and reusable UI components.",
+    link: "https://www.youtube.com/watch?v=hT4hswhUsaA/",
+    image: "/projects/project-3.png",
   },
 ];
 
