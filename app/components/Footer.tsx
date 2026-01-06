@@ -10,37 +10,21 @@ export default function Footer(): React.JSX.Element {
             Contact
           </h2>
           <p className="text-md text-white/80 max-w-2xl mx-auto mb-8">
-            I&apos;m currently looking to join a cross-functional team that values 
-            improving people&apos;s lives through accessible design, or have a project 
-            in mind? Let&apos;s connect.
+            I'm looking for backend or full-stack internship roles where I can learn, 
+            contribute, and help build reliable systems that make a real impact.
+            Let's connect!
           </p>
           <a
-            href="mailto:ibii.code@gmail.com"
             className="text-md text-purple-400 hover:text-purple-300 transition-colors"
           >
-            ibii.code@gmail.com
+            liew0227@e.ntu.edu.sg
           </a>
         </div>
 
         {/* Social Media Icons */}
         <div className="flex justify-center gap-6 mt-12">
           <Link
-            href="https://www.instagram.com/ibii.memon/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
-            aria-label="Instagram"
-          >
-            <Image
-              src="/assets/insta.webp"
-              alt="Instagram"
-              width={20}
-              height={20}
-              className="w-5 h-5"
-            />
-          </Link>
-          <Link
-            href="https://github.com/ibrahimmemonn"
+            href="https://github.com/maeganliew"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
@@ -55,7 +39,7 @@ export default function Footer(): React.JSX.Element {
             </svg>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/ibrahimmemonn/"
+            href="https://www.linkedin.com/in/liew-jia-wei/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 border border-purple-500/30 hover:border-purple-500/50 transition-all"
