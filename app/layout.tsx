@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title: "Jia Wei Liew's portfolio",
   description: "A Computer Science student who enjoys building things that work well at scale.",
   keywords: [
-    "Liew Jia WEi",
+    "Liew Jia Wei",
     "Software Engineer",
     "Full Stack Developer",
     "Backend Engineer",

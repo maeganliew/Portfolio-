@@ -14,14 +14,14 @@ const experienceCards: ExperienceCard[] = [
     title: "SAP Asia — Full Stack Developer Intern",
     description:
       "Worked on enterprise backend services for Document AI, building Java-based APIs, improving test coverage, and stabilizing CI pipelines. Focused on scalable backend logic and production reliability in an Agile scrum team.",
-    icon: "/cards/card-1.png",
+    icon: "/cards/card1.png",
   },
   {
     id: 2,
     title: "Salient Information — Software Engineer Intern",
     description:
       "Developed interactive AR experiences for brand campaigns. Collaborated closely with designers and engineers to deliver engaging digital products that increased user interaction across multiple launches.",
-    icon: "/cards/card-2.png",
+    icon: "/cards/card2.png",
   }
 ];
 

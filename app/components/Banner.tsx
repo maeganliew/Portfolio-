@@ -75,7 +75,7 @@ export default function Banner(): React.JSX.Element {
                 </div>
               </div>
               <Image
-                src="/assets/me.png"
+                src="/assets/memoji.png"
                 alt="Jia Wei - Software Engineer"
                 width={300}
                 height={300}
@@ -116,17 +116,18 @@ export default function Banner(): React.JSX.Element {
             <div className="">
               <p className="text-2xl"> A Developer who </p>
               <h1 className="text-5xl tracking-tight lg:text-7xl font-semibold text-white leading-tight">
-                Turns ideas into{" "} 
+                Turns {" "}
                 {/* <br /> by its{" "} */}
                 <span className="relative inline-block">
                   <Image src="/assets/circle.png" alt="Circle" width={200} height={200} className="absolute mt-2" />
                   <span className="bg-gradient-to-r from-violet-600 via-violet-400 to-violet-600 bg-clip-text text-transparent">
-                    code
+                    ideas
                   </span>
                 </span>
+                {" "}into code
                 ...
               </h1>
-              <p className="text-lg text-white/80">
+              <p className="text-xl text-white/80">
                 and bugs into lessons.
               </p>
             </div>
@@ -145,7 +146,12 @@ export default function Banner(): React.JSX.Element {
             </span> */}
           </p>
           <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
-            A Computer Science student who enjoys building things that work well at scale. I focus on backend and full-stack development, creating clean, maintainable systems that solve real problems while continuously learning better ways to design and ship software.
+            A Computer Science student who enjoys building things that work well at scale. <br/> <br/>I focus on backend and full-stack development, creating clean, maintainable systems that solve real problems while continuously learning better ways to design and ship software.
+          </p>
+            <br/>
+            <p className="text-lg max-w-6xl mx-auto">
+            I&apos;m looking for <span className="text-purple-400 font-bold">backend</span> or <span className="text-purple-400 font-bold">full-stack</span> internship roles <br/>
+            where I can learn, contribute, and help build reliable systems that <span className="font-bold">make a real impact.</span>
           </p>
         </div>
       </div>

@@ -14,21 +14,21 @@ const featuredProjects: Project[] = [
     title: "Mini Search - Video Searching Platform",
     description: "A backend service for managing and searching short videos, with keyword-based relevance scoring, caching for repeated searches, and async thumbnail processing. Provides REST APIs for video CRUD, filtering, and sorting, with Swagger documentation for easy integration.",
     link: "https://minisearch-production.up.railway.app/swagger-ui/index.html",
-    image: "/projects/project-1.png",
+    image: "/projects/1-project.png",
   },
   {
     id: 2,
     title: "Track Your Offer - Application Tracking Platform",
     description: "A backend-focused job application tracker built with Node.js, Express, and MongoDB. Includes JWT auth, file uploads (Cloudinary), async email reminders (Bull + Redis), and full API documentation (Swagger). Designed to demonstrate real-world system design, background processing, and CI/CD deployment.",
     link: "https://track-your-offer-iota.vercel.app/",
-    image: "/projects/project-2.png",
+    image: "/projects/project2.png",
   },
   {
     id: 3,
     title: "Peepal -  Toilet Finder Application",
     description: "Peepal helps users locate nearby toilets with reviews and detailed info. Built with Hono (TypeScript) and PostgreSQL (PostGIS), it features JWT authentication and image uploads via MinIO. The Flutter frontend uses the BLoC pattern for a responsive, intuitive interface with maps and reusable UI components.",
     link: "https://www.youtube.com/watch?v=hT4hswhUsaA/",
-    image: "/projects/project-3.png",
+    image: "/projects/3-project.png",
   },
 ];
 
@@ -55,7 +55,7 @@ export default function Projects(): React.JSX.Element {
                   {/* Description Card - extends over image */}
                   <div className="relative z-10 mb-6">
                     <div className={`bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-md rounded-2xl p-6 lg:p-8 border border-white/10 shadow-lg ${
-                      isEven ? "lg:ml-[-20%]" : "lg:w-[calc(100%+20%)]"
+                      isEven ? "lg:ml-[-5%]" : "lg:w-[calc(100%+5%)]"
                     }`}>
                       <p className="text-white/90 text-base lg:text-lg leading-relaxed">
                         {project.description}
@@ -100,7 +100,7 @@ export default function Projects(): React.JSX.Element {
                         alt={project.title}
                         fill
                         sizes="(max-width: 1024px) 100vw, 50vw"
-                        className="object-cover"
+                        className="object-contain"
                       />
                     </div>
                   </div>
