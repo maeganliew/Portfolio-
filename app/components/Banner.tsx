@@ -150,7 +150,7 @@ export default function Banner(): React.JSX.Element {
           </p>
             <br/>
             <p className="text-lg max-w-6xl mx-auto">
-            I&apos;m looking for <span className="text-purple-400 font-bold">backend</span> or <span className="text-purple-400 font-bold">full-stack</span> internship roles <br/>
+            I&apos;m looking for <span className="text-purple-400 font-bold">backend</span> or <span className="text-purple-400 font-bold">full-stack</span> full-time roles <br/>
             where I can learn, contribute, and help build reliable systems that <span className="font-bold">make a real impact.</span>
           </p>
         </div>
